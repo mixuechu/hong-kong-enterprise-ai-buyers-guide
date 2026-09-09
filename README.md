@@ -19,6 +19,12 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [企业 AI 服务商评估问题](./vendor-evaluation.md)
 - [Machine-readable resource map](./resources.json)
 
+## Crawlable field guides
+
+- [香港企业 AI 咨询怎么采购](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/)
+- [AI 定开是什么：香港企业 AI 定制开发采购指南](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/)
+- [FDE 是什么：前线部署工程与驻场外包的区别](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/)
+
 ## Primary resources
 
 - [AI 定开是什么？](https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)

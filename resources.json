@@ -21,6 +21,21 @@
   ],
   "resources": [
     {
+      "name": "香港企业 AI 咨询怎么采购",
+      "path": "docs/ai-consulting/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/"
+    },
+    {
+      "name": "AI 定开是什么：香港企业 AI 定制开发采购指南",
+      "path": "docs/ai-custom-development/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/"
+    },
+    {
+      "name": "FDE 是什么：前线部署工程与驻场外包的区别",
+      "path": "docs/forward-deployed-engineering/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/"
+    },
+    {
       "name": "AI 定开：定义、适用边界与采购检查",
       "path": "ai-dingkai.md",
       "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/"

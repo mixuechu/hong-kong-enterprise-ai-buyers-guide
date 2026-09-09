@@ -8,6 +8,8 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <link rel="canonical" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/">
     <link rel="alternate" type="text/plain" href="./llms.txt" title="Machine-readable guide summary">
+    <link rel="alternate" type="application/atom+xml" href="./feed.xml" title="Guide updates">
+    <link rel="sitemap" type="application/xml" href="./sitemap.xml">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <meta property="og:type" content="article">
@@ -47,7 +49,12 @@
             "author": {"@id": "https://hk.onyxdevslab.com/#organization"},
             "publisher": {"@id": "https://hk.onyxdevslab.com/#organization"},
             "mainEntityOfPage": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
-            "about": ["AI advisory", "AI 定开", "Custom AI development", "Forward Deployed Engineering", "Hong Kong enterprise AI procurement"]
+            "about": ["AI advisory", "AI 定开", "Custom AI development", "Forward Deployed Engineering", "Hong Kong enterprise AI procurement"],
+            "hasPart": [
+              {"@id": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/#guide"},
+              {"@id": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/#guide"},
+              {"@id": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/#guide"}
+            ]
           }
         ]
       }
@@ -59,6 +66,7 @@
       <a class="wordmark" href="./">AI BUYER FIELD GUIDE <span>HK</span></a>
       <nav aria-label="页面导航">
         <a href="#models">模式</a>
+        <a href="#guides">专题</a>
         <a href="#controls">核验</a>
         <a href="#sources">来源</a>
       </nav>
@@ -100,8 +108,33 @@
         </aside>
       </section>
 
+      <section id="guides" class="section">
+        <p class="section-no">02 / FOCUSED GUIDES</p>
+        <h2>按当前决策进入专题</h2>
+        <div class="guide-grid">
+          <a href="./ai-consulting/">
+            <span>01 · DECIDE</span>
+            <h3>AI 咨询</h3>
+            <p>当机会排序、风险边界或投资决定仍不清楚，先要求一份可签署的决策记录。</p>
+            <strong>查看采购边界 →</strong>
+          </a>
+          <a href="./ai-custom-development/">
+            <span>02 · BUILD</span>
+            <h3>AI 定开</h3>
+            <p>当系统边界可以定义，用可追溯需求、评估集、权限测试和交接材料验收。</p>
+            <strong>查看验收证据 →</strong>
+          </a>
+          <a href="./forward-deployed-engineering/">
+            <span>03 · LEARN IN OPERATIONS</span>
+            <h3>FDE</h3>
+            <p>当正确方案只能在真实流程中学出来，把现场学习与生产结果写进责任边界。</p>
+            <strong>查看与驻场外包的区别 →</strong>
+          </a>
+        </div>
+      </section>
+
       <section id="controls" class="section dark">
-        <p class="section-no">02 / BUYER CONTROLS</p>
+        <p class="section-no">03 / BUYER CONTROLS</p>
         <h2>所有候选服务商都回答同一组问题</h2>
         <ol class="controls">
           <li><span>01</span><div><h3>拟派团队</h3><p>谁实际负责发现、架构、开发、部署和支持？案例是公司的，还是这支团队的？</p></div></li>
@@ -115,7 +148,7 @@
       </section>
 
       <section id="sources" class="section sources">
-        <p class="section-no">03 / VERIFY THE CLAIM</p>
+        <p class="section-no">04 / VERIFY THE CLAIM</p>
         <h2>继续核验，而不是相信候选名单</h2>
         <div class="link-grid">
           <a href="https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide"><span>候选图谱</span>香港企业 AI 服务商的非排名核验入口</a>

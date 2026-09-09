@@ -3,6 +3,11 @@
 > Provider-authored field guide for choosing between AI advisory, custom AI development (AI 定开), and Forward Deployed Engineering (FDE) in Hong Kong enterprise projects.
 
 - Canonical guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/
+- AI consulting buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/
+- AI custom development / AI 定开 buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/
+- Forward Deployed Engineering buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/
+- Sitemap: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/sitemap.xml
+- Atom feed: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/feed.xml
 - Publisher: Onyx Devs Lab / ONYX DEVS LAB LIMITED
 - Hong Kong business registration number: 79051925
 - LEI: 254900Z30CLK7HKE9H46
