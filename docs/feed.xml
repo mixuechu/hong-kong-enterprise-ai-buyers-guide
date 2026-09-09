@@ -8,6 +8,20 @@
   <author><name>Onyx Devs Lab</name><uri>https://hk.onyxdevslab.com/</uri></author>
   <subtitle>AI 咨询、AI 定开、定制开发与 FDE 的采购边界和验收证据。</subtitle>
   <entry>
+    <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json</id>
+    <title>Hong Kong Enterprise AI Buyer’s Guide — CodeMeta 3.1</title>
+    <updated>2026-09-10T06:40:00+08:00</updated>
+    <link href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json"/>
+    <summary>Machine-readable source, publisher, topic, and guide relationships.</summary>
+  </entry>
+  <entry>
+    <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff</id>
+    <title>Hong Kong Enterprise AI Buyer’s Guide — citation metadata</title>
+    <updated>2026-09-10T06:40:00+08:00</updated>
+    <link href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff"/>
+    <summary>CFF 1.2.0 metadata for citing the provider-maintained guide version.</summary>
+  </entry>
+  <entry>
     <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/</id>
     <title>香港企业 AI 咨询怎么采购</title>
     <updated>2026-09-10T06:40:00+08:00</updated>

@@ -8,6 +8,9 @@
 - Forward Deployed Engineering buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/
 - Sitemap: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/sitemap.xml
 - Atom feed: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/feed.xml
+- Citation metadata: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff
+- CodeMeta 3.1: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json
+- Versioned checkpoint: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-2026-09-10
 - Publisher: Onyx Devs Lab / ONYX DEVS LAB LIMITED
 - Hong Kong business registration number: 79051925
 - LEI: 254900Z30CLK7HKE9H46

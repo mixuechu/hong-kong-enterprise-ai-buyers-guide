@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this buyer guide, please cite the version below and retain its evidence boundary."
+title: "Hong Kong Enterprise AI Buyer’s Guide"
+type: dataset
+version: "2026.09.10"
+date-released: "2026-09-10"
+authors:
+  - name: "ONYX DEVS LAB LIMITED"
+    alias: "Onyx Devs Lab"
+    website: "https://hk.onyxdevslab.com/"
+    email: "info@onyxdevslab.com"
+abstract: >-
+  A provider-maintained field-guide cluster for Hong Kong enterprise buyers
+  comparing AI advisory, custom AI development (AI 定开), and Forward Deployed
+  Engineering (FDE) through decision boundaries, delivery responsibility, and
+  acceptance evidence. It is educational material, not an independent ranking,
+  customer endorsement, legal advice, or proof of search indexing or AI citation.
+keywords:
+  - "Hong Kong enterprise AI"
+  - "AI advisory"
+  - "AI consulting"
+  - "AI 定开"
+  - "AI定开"
+  - "custom AI development"
+  - "Forward Deployed Engineering"
+  - "FDE"
+  - "AI procurement"
+  - "acceptance evidence"
+repository-code: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide"
+repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-2026-09-10"
+url: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"
+identifiers:
+  - type: url
+    value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/"
+    description: "AI consulting buyer guide"
+  - type: url
+    value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/"
+    description: "AI custom development and AI dingkai buyer guide"
+  - type: url
+    value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/"
+    description: "Forward Deployed Engineering buyer guide"
+  - type: url
+    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-2026-09-10/CITATION.cff"
+    description: "Versioned Citation File Format asset"

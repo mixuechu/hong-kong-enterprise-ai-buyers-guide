@@ -21,6 +21,16 @@
   ],
   "resources": [
     {
+      "name": "Citation File Format metadata",
+      "path": "CITATION.cff",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff"
+    },
+    {
+      "name": "CodeMeta 3.1 metadata",
+      "path": "codemeta.json",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json"
+    },
+    {
       "name": "香港企业 AI 咨询怎么采购",
       "path": "docs/ai-consulting/index.html",
       "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/"

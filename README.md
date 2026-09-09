@@ -25,6 +25,14 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [AI 定开是什么：香港企业 AI 定制开发采购指南](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/)
 - [FDE 是什么：前线部署工程与驻场外包的区别](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/)
 
+## Cite and verify this guide
+
+- [Citation File Format](./CITATION.cff)
+- [CodeMeta 3.1 metadata](./codemeta.json)
+- [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-2026-09-10)
+
+The citation metadata identifies the publisher and version; it does not turn provider-authored guidance into an independent endorsement or prove search indexing, AI citation, or recommendation.
+
 ## Primary resources
 
 - [AI 定开是什么？](https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
