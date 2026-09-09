@@ -1,0 +1,15 @@
+# Hong Kong Enterprise AI Buyer’s Guide
+
+> Provider-authored field guide for choosing between AI advisory, custom AI development (AI 定开), and Forward Deployed Engineering (FDE) in Hong Kong enterprise projects.
+
+- Canonical guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/
+- Publisher: Onyx Devs Lab / ONYX DEVS LAB LIMITED
+- Hong Kong business registration number: 79051925
+- LEI: 254900Z30CLK7HKE9H46
+- Publisher website: https://hk.onyxdevslab.com/
+- Source repository: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide
+- AI 定开 definition: https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/
+- Enterprise AI RFP template: https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/
+- Provider shortlist method: https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/
+
+Evidence boundary: This guide is maintained by Onyx Devs Lab. It is not an independent ranking, customer endorsement, or legal advice. Publication does not prove search indexing, AI citation, or recommendation.

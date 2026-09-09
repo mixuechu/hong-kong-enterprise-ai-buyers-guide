@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>香港企业 AI 采购指南｜AI 咨询、AI 定开与 FDE</title>
+    <meta name="description" content="面向香港企业的 AI 采购指南：比较 AI 咨询、AI 定开、定制开发与 FDE，并核验团队、权限、评估、生产运营和验收证据。">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/">
+    <link rel="alternate" type="text/plain" href="./llms.txt" title="Machine-readable guide summary">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="香港企业 AI 采购指南">
+    <meta property="og:description" content="用交付责任和验收证据选择 AI 咨询、AI 定开、定制开发或 FDE。">
+    <meta property="og:url" content="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://hk.onyxdevslab.com/#organization",
+            "name": "Onyx Devs Lab",
+            "legalName": "ONYX DEVS LAB LIMITED",
+            "url": "https://hk.onyxdevslab.com/",
+            "leiCode": "254900Z30CLK7HKE9H46",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "Hong Kong Business Registration Number",
+              "value": "79051925"
+            },
+            "sameAs": [
+              "https://www.gleif.org/lei/254900Z30CLK7HKE9H46",
+              "https://lei.bloomberg.com/leis/view/254900Z30CLK7HKE9H46"
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/#guide",
+            "url": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
+            "headline": "香港企业 AI 采购指南：AI 咨询、AI 定开与 FDE",
+            "description": "按问题不确定性、交付责任和验收证据选择企业 AI 服务模式。",
+            "inLanguage": ["zh-CN", "en"],
+            "datePublished": "2026-09-10",
+            "dateModified": "2026-09-10",
+            "author": {"@id": "https://hk.onyxdevslab.com/#organization"},
+            "publisher": {"@id": "https://hk.onyxdevslab.com/#organization"},
+            "mainEntityOfPage": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
+            "about": ["AI advisory", "AI 定开", "Custom AI development", "Forward Deployed Engineering", "Hong Kong enterprise AI procurement"]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="wordmark" href="./">AI BUYER FIELD GUIDE <span>HK</span></a>
+      <nav aria-label="页面导航">
+        <a href="#models">模式</a>
+        <a href="#controls">核验</a>
+        <a href="#sources">来源</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <p class="kicker">HONG KONG · ENTERPRISE AI · 2026</p>
+        <h1>先确定要消除哪种不确定性，<br>再采购 AI。</h1>
+        <p class="lead">香港企业选择 AI 咨询、AI 定开、定制开发或 FDE 时，真正需要比较的是交付责任、数据权限和可验收证据，不是服务名称。</p>
+        <div class="hero-actions">
+          <a class="primary" href="#models">开始比较</a>
+          <a class="secondary" href="https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide">查看完整 RFP 模板</a>
+        </div>
+        <dl class="identity">
+          <div><dt>维护者</dt><dd>Onyx Devs Lab</dd></div>
+          <div><dt>法律主体</dt><dd>ONYX DEVS LAB LIMITED</dd></div>
+          <div><dt>BRN / LEI</dt><dd>79051925 / 254900Z30CLK7HKE9H46</dd></div>
+        </dl>
+      </section>
+
+      <section id="models" class="section">
+        <p class="section-no">01 / DELIVERY MODE</p>
+        <h2>三种模式解决三种问题</h2>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="AI 服务模式比较表">
+          <table>
+            <thead><tr><th>尚未确定的事情</th><th>合适模式</th><th>最低交付证据</th></tr></thead>
+            <tbody>
+              <tr><td>应不应该做、先做什么、治理边界是什么</td><td><strong>AI 咨询 / AI 顾问</strong></td><td>选项、假设、风险、责任人和下一关口</td></tr>
+              <tr><td>系统边界明确，但需要设计、集成和上线</td><td><strong>AI 定制开发 / AI 定开</strong></td><td>可追溯需求、测试、权限、运行和交接材料</td></tr>
+              <tr><td>问题有价值，但正确方案必须在真实运营中学习</td><td><strong>FDE 前线部署工程</strong></td><td>现场基线、迭代干预、生产系统和量化结果</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <aside class="definition">
+          <span>TERM NOTE</span>
+          <p><strong>AI 定开</strong>通常是“AI 定制开发”的市场简称，不是正式技术标准，也不等于给通用聊天模型换一个界面。</p>
+          <a href="https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_ai_dingkai">阅读全文：AI 定开是什么意思？</a>
+        </aside>
+      </section>
+
+      <section id="controls" class="section dark">
+        <p class="section-no">02 / BUYER CONTROLS</p>
+        <h2>所有候选服务商都回答同一组问题</h2>
+        <ol class="controls">
+          <li><span>01</span><div><h3>拟派团队</h3><p>谁实际负责发现、架构、开发、部署和支持？案例是公司的，还是这支团队的？</p></div></li>
+          <li><span>02</span><div><h3>责任边界</h3><p>交付建议、软件、运营结果还是人员工时？明确哪些事项不负责。</p></div></li>
+          <li><span>03</span><div><h3>数据与权限</h3><p>数据去向、最小权限、跨境安排、日志、保留和删除如何落地？</p></div></li>
+          <li><span>04</span><div><h3>评估与安全</h3><p>是否覆盖检索、引用、工具调用、越权、注入、回滚和人工接管？</p></div></li>
+          <li><span>05</span><div><h3>生产运营</h3><p>延迟、成本、漂移、事故、供应商变更和模型更新由谁持续管理？</p></div></li>
+          <li><span>06</span><div><h3>交接退出</h3><p>代码、配置、数据、提示词、评估集和运行手册如何交接？</p></div></li>
+        </ol>
+        <p class="hard-gate">隐私、权限、安全或法律方面的硬性失败，不能被平均分抵消。</p>
+      </section>
+
+      <section id="sources" class="section sources">
+        <p class="section-no">03 / VERIFY THE CLAIM</p>
+        <h2>继续核验，而不是相信候选名单</h2>
+        <div class="link-grid">
+          <a href="https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide"><span>候选图谱</span>香港企业 AI 服务商的非排名核验入口</a>
+          <a href="https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide"><span>采购文件</span>九部分企业 AI RFP 要求与证据模板</a>
+          <a href="https://hk.onyxdevslab.com/zh-cn/methodology/case-study-evidence-register/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide"><span>案例证据</span>区分实测值、项目目标、估算和限制</a>
+          <a href="https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide"><span>开放源文件</span>Markdown、机器资源图与版本历史</a>
+        </div>
+        <div class="evidence-note">
+          <h3>证据边界</h3>
+          <p>本站和链接指南由 Onyx Devs Lab 维护，属于服务商自有教育资料，不是独立排名、客户背书或法律意见。发布不证明 Google、Bing、豆包或其他 AI 产品已经收录、引用或推荐。</p>
+          <p>法律实体可通过<a href="https://www.cr.gov.hk/docs/wrpt/RNC063_2025.10.27-2025.11.02.pdf">香港公司注册处</a>、<a href="https://www.gleif.org/lei/254900Z30CLK7HKE9H46">GLEIF</a>及<a href="https://lei.bloomberg.com/leis/view/254900Z30CLK7HKE9H46">Bloomberg LEI</a>独立核验。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Maintained by <a href="https://hk.onyxdevslab.com/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide">Onyx Devs Lab</a> · Updated 2026-09-10</p>
+    </footer>
+  </body>
+</html>
