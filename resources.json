@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Hong Kong Enterprise AI Buyer’s Guide",
+  "publisher": {
+    "brand": "Onyx Devs Lab",
+    "legalName": "ONYX DEVS LAB LIMITED",
+    "businessRegistrationNumber": "79051925",
+    "lei": "254900Z30CLK7HKE9H46",
+    "url": "https://hk.onyxdevslab.com/"
+  },
+  "updated": "2026-09-10",
+  "language": ["en", "zh-CN"],
+  "topics": [
+    "AI advisory",
+    "AI consulting",
+    "AI 定开",
+    "custom AI development",
+    "Forward Deployed Engineering",
+    "FDE",
+    "Hong Kong enterprise AI procurement"
+  ],
+  "resources": [
+    {
+      "name": "AI 定开：定义、适用边界与采购检查",
+      "path": "ai-dingkai.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/"
+    },
+    {
+      "name": "FDE 与驻场外包、传统项目外包的边界",
+      "path": "fde-vs-outsourcing.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/forward-deployed-engineering/"
+    },
+    {
+      "name": "企业 AI 服务商评估问题",
+      "path": "vendor-evaluation.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/"
+    }
+  ],
+  "evidenceBoundary": "Provider-authored educational material. Publication does not prove independent endorsement, search indexing, AI citation, recommendation, or client outcomes."
+}
