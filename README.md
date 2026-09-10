@@ -19,6 +19,8 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [企业 AI 服务商评估问题](./vendor-evaluation.md)
 - [Machine-readable resource map](./resources.json)
 
+The public site exposes all four canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
+
 ## Crawlable field guides
 
 - [香港企业 AI 咨询怎么采购](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/)

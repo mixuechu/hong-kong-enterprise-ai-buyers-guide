@@ -2,8 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/</id>
   <title>香港企业 AI 采购指南</title>
-  <updated>2026-09-10T06:40:00+08:00</updated>
+  <updated>2026-09-11T00:00:00+08:00</updated>
   <link rel="self" type="application/atom+xml" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/feed.xml"/>
+  <link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
   <link rel="alternate" type="text/html" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"/>
   <author><name>Onyx Devs Lab</name><uri>https://hk.onyxdevslab.com/</uri></author>
   <subtitle>AI 咨询、AI 定开、定制开发与 FDE 的采购边界和验收证据。</subtitle>

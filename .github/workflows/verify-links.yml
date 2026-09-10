@@ -20,3 +20,4 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/check-links.mjs
+      - run: node scripts/check-discovery.mjs
