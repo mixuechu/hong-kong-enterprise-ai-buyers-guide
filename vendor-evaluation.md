@@ -12,6 +12,6 @@
 
 先做有限验证，并预先写明扩大、重设、暂缓和停止条件。不要用平均分掩盖隐私、权限、安全或法律方面的硬性失败。
 
-可下载的完整资源：[香港企业 AI RFP 要求模板](https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide_vendor_evaluation)与[服务商候选图谱](https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide_vendor_evaluation)。
+可下载的完整资源：[香港企业 AI RFP 要求模板](https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide_vendor_evaluation)与[服务商候选图谱](https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide_vendor_evaluation)。
 
 本文由 Onyx Devs Lab 维护，不构成独立排名、法律意见或对任何供应商的背书。

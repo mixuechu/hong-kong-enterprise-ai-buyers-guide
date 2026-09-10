@@ -18,6 +18,6 @@
 - Source repository: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide
 - AI 定开 definition: https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/
 - Enterprise AI RFP template: https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/
-- Provider shortlist method: https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/
+- Provider shortlist method: https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/
 
 Evidence boundary: This guide is maintained by Onyx Devs Lab. It is not an independent ranking, customer endorsement, or legal advice. Publication does not prove search indexing, AI citation, or recommendation.

@@ -37,7 +37,7 @@ The citation metadata identifies the publisher and version; it does not turn pro
 
 - [AI 定开是什么？](https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
 - [AI 咨询、定制开发与 FDE 怎么选](https://hk.onyxdevslab.com/zh-cn/guides/ai-consulting-vs-development-vs-fde/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
-- [香港企业 AI 服务商候选图谱](https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-enterprise-ai-providers/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
+- [香港企业 AI 服务商候选图谱](https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
 - [企业 AI RFP 要求模板](https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
 - [AI 搜索可见性验证方法](https://hk.onyxdevslab.com/zh-cn/methodology/ai-search-verification/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide)
 
