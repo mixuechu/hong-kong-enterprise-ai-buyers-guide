@@ -31,6 +31,6 @@
     "sameAs": ["https://www.gleif.org/lei/254900Z30CLK7HKE9H46", "https://lei.bloomberg.com/leis/view/254900Z30CLK7HKE9H46", "https://www.cr.gov.hk/docs/wrpt/RNC063_2025.10.27-2025.11.02.pdf"]
   },
   "publisher": {"@id": "https://hk.onyxdevslab.com/#organization"},
-  "citation": ["https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/", "https://hk.onyxdevslab.com/data/organization.json"],
+  "citation": ["https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/", "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1", "https://hk.onyxdevslab.com/data/organization.json"],
   "additionalType": "Provider-authored educational resource; not an independent ranking, endorsement, or proof of search indexing or AI citation."
 }
