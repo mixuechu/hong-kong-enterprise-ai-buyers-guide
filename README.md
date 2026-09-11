@@ -20,7 +20,7 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [GEO 效果怎么验收：AI 搜索可见性的五级证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/)
 - [零售、会计与法律 AI 怎么落地：企业场景架构与验收证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/)
 - [GitHub Q&A：AI 定开、AI 咨询和 FDE 应该怎么选？](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1)
-- [Machine-readable resource map](./resources.json)
+- [Machine-readable resource map](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/resources.json)
 
 The public site exposes all six canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
 
@@ -36,7 +36,7 @@ The public site exposes all six canonical guides through `sitemap.xml` and an At
 
 - [Citation File Format](./CITATION.cff)
 - [CodeMeta 3.1 metadata](./codemeta.json)
-- [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11)
+- [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-machine-resources-2026-09-11)
 - [Current Onyx AI-search evidence status](https://hk.onyxdevslab.com/data/ai-search-evidence-status.json)
 - [Versioned GEO monitor evidence checkpoint — revision 7](https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7)
 

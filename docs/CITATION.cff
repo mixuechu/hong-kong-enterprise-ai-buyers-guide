@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this buyer guide, please cite the version below and retain its evidence boundary."
 title: "Hong Kong Enterprise AI Buyer’s Guide"
 type: dataset
-version: "2026.09.11"
+version: "2026.09.11.2"
 date-released: "2026-09-11"
 authors:
   - name: "ONYX DEVS LAB LIMITED"
@@ -30,7 +30,7 @@ keywords:
   - "Generative Engine Optimization"
   - "AI search visibility"
 repository-code: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide"
-repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11"
+repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-machine-resources-2026-09-11"
 url: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"
 identifiers:
   - type: url
@@ -49,5 +49,8 @@ identifiers:
     value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"
     description: "Retail, accounting, and legal enterprise AI scenario patterns"
   - type: url
-    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-scenarios-2026-09-11/CITATION.cff"
+    value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/resources.json"
+    description: "Machine-readable publisher, guide, and evidence resource map"
+  - type: url
+    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-machine-resources-2026-09-11/CITATION.cff"
     description: "Versioned Citation File Format asset"

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Hong Kong Enterprise AI Buyer’s Guide",
+  "publisher": {
+    "brand": "Onyx Devs Lab",
+    "legalName": "ONYX DEVS LAB LIMITED",
+    "businessRegistrationNumber": "79051925",
+    "lei": "254900Z30CLK7HKE9H46",
+    "url": "https://hk.onyxdevslab.com/"
+  },
+  "updated": "2026-09-11",
+  "language": ["en", "zh-CN"],
+  "topics": [
+    "AI advisory",
+    "AI consulting",
+    "AI 定开",
+    "custom AI development",
+    "Forward Deployed Engineering",
+    "FDE",
+    "Generative Engine Optimization",
+    "AI search visibility",
+    "Hong Kong enterprise AI procurement"
+  ],
+  "resources": [
+    {
+      "name": "Citation File Format metadata",
+      "path": "CITATION.cff",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff"
+    },
+    {
+      "name": "CodeMeta 3.1 metadata",
+      "path": "codemeta.json",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json"
+    },
+    {
+      "name": "香港企业 AI 咨询怎么采购",
+      "path": "docs/ai-consulting/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/"
+    },
+    {
+      "name": "AI 定开是什么：香港企业 AI 定制开发采购指南",
+      "path": "docs/ai-custom-development/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/"
+    },
+    {
+      "name": "FDE 是什么：前线部署工程与驻场外包的区别",
+      "path": "docs/forward-deployed-engineering/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/"
+    },
+    {
+      "name": "GEO 效果怎么验收：AI 搜索可见性的五级证据",
+      "path": "docs/ai-search-geo-evidence/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"
+    },
+    {
+      "name": "零售、会计与法律 AI 怎么落地：企业场景架构与验收证据",
+      "path": "docs/enterprise-ai-scenario-patterns/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"
+    },
+    {
+      "name": "AI 定开、AI 咨询和 FDE 应该怎么选？",
+      "path": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
+      "canonical": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
+      "evidenceClass": "provider-authored-public-discussion"
+    },
+    {
+      "name": "Onyx Devs Lab AI-search evidence status",
+      "path": "https://hk.onyxdevslab.com/data/ai-search-evidence-status.json",
+      "canonical": "https://hk.onyxdevslab.com/data/ai-search-evidence-status.json",
+      "evidenceClass": "provider-maintained-machine-readable-status"
+    },
+    {
+      "name": "Onyx automated GEO monitor evidence checkpoint — 2026-09-11, revision 7",
+      "path": "https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7",
+      "canonical": "https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/download/geo-monitor-evidence-2026-09-11-7/2026-09-11-monitor-evidence.json",
+      "evidenceClass": "provider-maintained-versioned-monitor-evidence",
+      "evidenceBoundary": "Crawler and referral observations do not prove indexing, retrieval, citation, ranking, a human visit, or non-brand recommendation."
+    },
+    {
+      "name": "AI 定开：定义、适用边界与采购检查",
+      "path": "ai-dingkai.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/"
+    },
+    {
+      "name": "FDE 与驻场外包、传统项目外包的边界",
+      "path": "fde-vs-outsourcing.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/forward-deployed-engineering/"
+    },
+    {
+      "name": "企业 AI 服务商评估问题",
+      "path": "vendor-evaluation.md",
+      "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/"
+    }
+  ],
+  "evidenceBoundary": "Provider-authored educational material. Publication does not prove independent endorsement, search indexing, AI citation, recommendation, or client outcomes."
+}

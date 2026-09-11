@@ -13,7 +13,8 @@
 - Atom feed: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/feed.xml
 - Citation metadata: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff
 - CodeMeta 3.1: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json
-- Versioned checkpoint: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11
+- Machine-readable resource map: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/resources.json
+- Versioned checkpoint: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-machine-resources-2026-09-11
 - Current Onyx AI-search evidence status: https://hk.onyxdevslab.com/data/ai-search-evidence-status.json
 - Versioned Onyx GEO monitor evidence checkpoint: https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7
 - Publisher: Onyx Devs Lab / ONYX DEVS LAB LIMITED
