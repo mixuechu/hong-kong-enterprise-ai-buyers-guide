@@ -8,16 +8,16 @@
     "香港企业 AI 采购指南",
     "Onyx Devs Lab AI advisory, AI 定开 and FDE buyer guide"
   ],
-  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, vendor evaluation, and acceptance evidence.",
+  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, GEO verification, vendor evaluation, and acceptance evidence.",
   "applicationCategory": "Enterprise AI procurement knowledge resource",
   "codeRepository": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide",
   "url": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
-  "sameAs": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-2026-09-10/codemeta.json",
+  "sameAs": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-geo-evidence-2026-09-11/codemeta.json",
   "readme": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/blob/main/README.md",
-  "downloadUrl": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/archive/refs/tags/buyers-guide-2026-09-10.zip",
-  "version": "2026.09.10",
+  "downloadUrl": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/archive/refs/tags/buyers-guide-geo-evidence-2026-09-11.zip",
+  "version": "2026.09.11",
   "dateCreated": "2026-09-10",
-  "dateModified": "2026-09-10",
+  "dateModified": "2026-09-11",
   "developmentStatus": "active",
   "isAccessibleForFree": true,
   "programmingLanguage": ["HTML", "CSS", "JSON-LD"],
@@ -31,6 +31,9 @@
     "custom AI development",
     "Forward Deployed Engineering",
     "FDE",
+    "Generative Engine Optimization",
+    "GEO",
+    "AI search visibility",
     "AI procurement"
   ],
   "author": {
@@ -57,6 +60,7 @@
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/",
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/",
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/",
+    "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/",
     "https://hk.onyxdevslab.com/data/organization.json"
   ],
   "additionalType": "Provider-authored educational resource; not an independent ranking, endorsement, or proof of search indexing or AI citation."

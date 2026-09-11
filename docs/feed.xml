@@ -9,6 +9,13 @@
   <author><name>Onyx Devs Lab</name><uri>https://hk.onyxdevslab.com/</uri></author>
   <subtitle>AI 咨询、AI 定开、定制开发与 FDE 的采购边界和验收证据。</subtitle>
   <entry>
+    <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/</id>
+    <title>GEO 效果怎么验收：AI 搜索可见性的五级证据</title>
+    <updated>2026-09-11T13:30:00+08:00</updated>
+    <link href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"/>
+    <summary>区分可访问、官方爬虫抓取、公开收录、AI 引用和非品牌推荐，并用固定提示词保存可复测证据。</summary>
+  </entry>
+  <entry>
     <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json</id>
     <title>Hong Kong Enterprise AI Buyer’s Guide — CodeMeta 3.1</title>
     <updated>2026-09-10T06:40:00+08:00</updated>
@@ -46,7 +53,7 @@
   <entry>
     <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/</id>
     <title>香港企业 AI 采购指南：AI 咨询、AI 定开与 FDE</title>
-    <updated>2026-09-10T06:40:00+08:00</updated>
+    <updated>2026-09-11T13:30:00+08:00</updated>
     <link href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"/>
     <summary>按问题不确定性、交付责任和验收证据选择企业 AI 服务模式。</summary>
   </entry>

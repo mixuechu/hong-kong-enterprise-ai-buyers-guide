@@ -6,6 +6,7 @@
 - AI consulting buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/
 - AI custom development / AI 定开 buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/
 - Forward Deployed Engineering buyer guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/
+- GEO / AI-search evidence acceptance guide: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/
 - Sitemap: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/sitemap.xml
 - Atom feed: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/feed.xml
 - Citation metadata: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff

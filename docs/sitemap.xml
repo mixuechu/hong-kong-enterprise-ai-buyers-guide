@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-11</lastmod>
   </url>
   <url>
     <loc>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/</loc>
@@ -15,5 +15,9 @@
   <url>
     <loc>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/</loc>
     <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/</loc>
+    <lastmod>2026-09-11</lastmod>
   </url>
 </urlset>

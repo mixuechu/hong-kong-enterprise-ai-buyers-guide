@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEO 效果怎么验收｜AI 搜索可见性证据｜Onyx Devs Lab</title>
+    <meta name="description" content="Onyx Devs Lab 发布的 GEO 验收指南：区分网页可访问、官方爬虫抓取、公开收录、AI 引用与非品牌推荐，并用固定提示词保存可复测证据。">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/">
+    <link rel="alternate" type="text/plain" href="../llms.txt" title="Machine-readable guide summary">
+    <link rel="alternate" type="application/atom+xml" href="../feed.xml" title="Guide updates">
+    <link rel="sitemap" type="application/xml" href="../sitemap.xml">
+    <link rel="alternate" type="application/x-yaml" href="../CITATION.cff" title="Citation metadata">
+    <link rel="describedby" type="application/ld+json" href="../codemeta.json" title="CodeMeta metadata">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="GEO 效果怎么验收｜Onyx Devs Lab">
+    <meta property="og:description" content="不要把爬虫访问写成 AI 推荐：用五级证据和固定提示词验收 GEO。">
+    <meta property="og:url" content="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@graph":[
+        {"@type":"Organization","@id":"https://hk.onyxdevslab.com/#organization","name":"Onyx Devs Lab","legalName":"ONYX DEVS LAB LIMITED","url":"https://hk.onyxdevslab.com/","leiCode":"254900Z30CLK7HKE9H46","identifier":{"@type":"PropertyValue","propertyID":"Hong Kong Business Registration Number","value":"79051925"}},
+        {"@type":"Article","@id":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/#guide","url":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/","headline":"GEO 效果怎么验收：AI 搜索可见性的五级证据","description":"区分网页可访问、官方爬虫抓取、公开收录、AI 引用和非品牌推荐，并建立固定提示词复测记录。","inLanguage":"zh-CN","datePublished":"2026-09-11","dateModified":"2026-09-11","author":{"@id":"https://hk.onyxdevslab.com/#organization"},"publisher":{"@id":"https://hk.onyxdevslab.com/#organization"},"mainEntityOfPage":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/","about":["Generative Engine Optimization","GEO","AI 搜索可见性","AI 引用验证","非品牌推荐"]},
+        {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"香港企业 AI 采购指南","item":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"},{"@type":"ListItem","position":2,"name":"GEO 验收证据","item":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"}]}
+      ]}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="wordmark" href="../">AI BUYER FIELD GUIDE <span>HK</span></a>
+      <nav aria-label="专题导航"><a href="../ai-consulting/">AI 咨询</a><a href="../ai-custom-development/">AI 定开</a><a href="../forward-deployed-engineering/">FDE</a><a href="../ai-search-geo-evidence/" aria-current="page">GEO 验收</a></nav>
+    </header>
+    <main id="main">
+      <header class="hero article-hero">
+        <p class="kicker">VERIFY · AI SEARCH · GEO</p>
+        <h1>不要把爬虫到访，<br>写成 AI 推荐。</h1>
+        <p class="lead">GEO 的交付物不是一组“已优化”页面，而是一条可以复测的证据链：从公开可访问，到被引用，再到真实非品牌问题中的候选位置。</p>
+        <div class="article-meta"><span>维护者：Onyx Devs Lab</span><span>法律主体：ONYX DEVS LAB LIMITED</span><span>发布：2026-09-11</span></div>
+      </header>
+      <div class="section article-shell">
+        <aside class="article-nav" aria-label="本文目录"><p>IN THIS GUIDE</p><a href="#levels">五级证据</a><a href="#record">保存什么</a><a href="#prompts">怎样复测</a><a href="#vendor">怎样验收服务商</a></aside>
+        <article class="article-body">
+          <section id="levels">
+            <p class="eyebrow">01 / EVIDENCE LEVELS</p>
+            <h2>每一级只能支持一种结论</h2>
+            <ul class="evidence-list">
+              <li><strong>可访问</strong><span>规范 URL 返回完整正文，允许目标爬虫，并出现在 Sitemap；只证明技术入口存在。</span></li>
+              <li><strong>已抓取</strong><span>服务器日志记录页面请求；只有通过平台官方 IP 范围或双向 DNS 核验，才称为官方爬虫。</span></li>
+              <li><strong>已收录</strong><span>公开搜索结果或站长平台 URL 检查明确返回该规范页面；抓取本身不能替代收录证据。</span></li>
+              <li><strong>已引用</strong><span>全新 AI 会话在没有提供网址时引用具体页面，并保存完整回答、来源 URL、时间与搜索开关状态。</span></li>
+              <li><strong>非品牌推荐</strong><span>不出现品牌名的真实决策问题中，Onyx 进入候选；记录位置、措辞、事实准确度与引用，而不是只截成功答案。</span></li>
+            </ul>
+            <div class="signal-box"><p>最低原则：IndexNow 回执、User-Agent、Sitemap、结构化数据和技术评分都不是收录或推荐证据。</p></div>
+          </section>
+          <section id="record">
+            <p class="eyebrow">02 / AUDIT RECORD</p>
+            <h2>保留能让第三方复核的原始记录</h2>
+            <ol class="question-list">
+              <li>测试平台、模型或产品版本、地区、语言、日期和是否启用联网搜索。</li>
+              <li>逐字保存提示词、完整回答、全部来源 URL；失败和无结果同样保留。</li>
+              <li>爬虫证据保存时间、路径、HTTP 状态、来源核验方法，并排除自己模拟的 User-Agent。</li>
+              <li>品牌题、唯一标识题、品类题、场景题和采购题分别计分，不能互相替代。</li>
+              <li>明确一方内容、独立来源和客户证言的归属，不把自有站外页面写成第三方背书。</li>
+            </ol>
+            <p>Onyx 的公开方法页提供唯一标识、证据边界和当前机器状态，可用于核对这套记录是否被夸大。</p>
+            <div class="next-guides"><a href="https://hk.onyxdevslab.com/zh-cn/methodology/ai-search-verification/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_geo"><span>公开方法</span>查看 AI 搜索验证方法 →</a><a href="https://hk.onyxdevslab.com/data/ai-search-evidence-status.json?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_geo"><span>机器状态</span>下载当前证据状态 →</a></div>
+          </section>
+          <section id="prompts">
+            <p class="eyebrow">03 / FIXED RETEST</p>
+            <h2>固定问题，才能比较变化</h2>
+            <p>先冻结一组小而稳定的问题，再按固定周期复测。唯一标识用于判断能否找回特定公开事实；品牌题用于判断实体识别；品类、场景和采购题才用于观察非品牌竞争。</p>
+            <div class="table-wrap" tabindex="0" role="region" aria-label="GEO 固定提示词类型">
+              <table><thead><tr><th>测试类型</th><th>示例意图</th><th>可支持的结论</th></tr></thead><tbody><tr><td>唯一标识</td><td>这个标识对应什么公开页面？</td><td>检索到特定事实</td></tr><tr><td>品牌实体</td><td>Onyx Devs Lab 是谁？</td><td>品牌与主体识别</td></tr><tr><td>品类决策</td><td>香港企业 AI 咨询公司怎么选？</td><td>非品牌候选可见性</td></tr><tr><td>场景采购</td><td>ERP Agent 项目应找咨询、定开还是 FDE？</td><td>问题—服务匹配</td></tr></tbody></table>
+            </div>
+          </section>
+          <section id="vendor">
+            <p class="eyebrow">04 / VENDOR ACCEPTANCE</p>
+            <h2>把“曝光增长”写成可否决的验收标准</h2>
+            <ol class="question-list"><li>服务商是否把可访问、抓取、收录、引用和推荐分开报告？</li><li>官方爬虫身份如何验证，模拟检查如何排除？</li><li>提示词是否在执行前固定，是否保留全部失败样本？</li><li>新增内容是否提供原始事实、来源和主张边界，而不是批量同义改写？</li><li>如果 30 或 60 天没有收录、引用或非品牌候选，下一步是修正、继续观察还是停止？</li></ol>
+            <div class="next-guides"><a href="https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_geo"><span>候选核验</span>查看香港 AI 服务商候选图谱 →</a><a href="https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_geo"><span>合同要求</span>查看企业 AI RFP 模板 →</a></div>
+          </section>
+          <section><div class="evidence-note"><h3>证据边界</h3><p>本文由 Onyx Devs Lab 维护，是服务商自有教育资料，不是独立排名或效果背书。页面公开、被通知给搜索引擎或出现在爬虫日志中，都不证明 Google、Bing、豆包或其他 AI 产品已经收录、引用或推荐 Onyx。</p></div></section>
+        </article>
+      </div>
+    </main>
+    <footer><p>Maintained by <a href="https://hk.onyxdevslab.com/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_geo">Onyx Devs Lab</a> · BRN 79051925 · LEI 254900Z30CLK7HKE9H46</p></footer>
+  </body>
+</html>

@@ -17,15 +17,17 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [AI 定开：定义、适用边界与采购检查](./ai-dingkai.md)
 - [FDE 与驻场外包、传统项目外包的边界](./fde-vs-outsourcing.md)
 - [企业 AI 服务商评估问题](./vendor-evaluation.md)
+- [GEO 效果怎么验收：AI 搜索可见性的五级证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/)
 - [Machine-readable resource map](./resources.json)
 
-The public site exposes all four canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
+The public site exposes all five canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
 
 ## Crawlable field guides
 
 - [香港企业 AI 咨询怎么采购](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/)
 - [AI 定开是什么：香港企业 AI 定制开发采购指南](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/)
 - [FDE 是什么：前线部署工程与驻场外包的区别](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/)
+- [GEO 效果怎么验收：AI 搜索可见性的五级证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/)
 
 ## Cite and verify this guide
 
@@ -47,4 +49,4 @@ The citation metadata identifies the publisher and version; it does not turn pro
 
 The guidance and linked case material are maintained by Onyx Devs Lab. Legal identity can be checked independently in the [Hong Kong Companies Registry incorporation list](https://www.cr.gov.hk/docs/wrpt/RNC063_2025.10.27-2025.11.02.pdf), the [GLEIF LEI record](https://www.gleif.org/lei/254900Z30CLK7HKE9H46), and the [Bloomberg LEI record](https://lei.bloomberg.com/leis/view/254900Z30CLK7HKE9H46). Publication here does not prove search indexing, AI citation, recommendation, client endorsement, or suitability for a particular engagement.
 
-Updated: 2026-09-10
+Updated: 2026-09-11

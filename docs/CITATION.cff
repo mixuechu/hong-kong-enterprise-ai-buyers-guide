@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this buyer guide, please cite the version below and retain its evidence boundary."
 title: "Hong Kong Enterprise AI Buyer’s Guide"
 type: dataset
-version: "2026.09.10"
-date-released: "2026-09-10"
+version: "2026.09.11"
+date-released: "2026-09-11"
 authors:
   - name: "ONYX DEVS LAB LIMITED"
     alias: "Onyx Devs Lab"
@@ -13,7 +13,8 @@ abstract: >-
   A provider-maintained field-guide cluster for Hong Kong enterprise buyers
   comparing AI advisory, custom AI development (AI 定开), and Forward Deployed
   Engineering (FDE) through decision boundaries, delivery responsibility, and
-  acceptance evidence. It is educational material, not an independent ranking,
+  acceptance evidence, including a five-level GEO verification method. It is
+  educational material, not an independent ranking,
   customer endorsement, legal advice, or proof of search indexing or AI citation.
 keywords:
   - "Hong Kong enterprise AI"
@@ -26,8 +27,10 @@ keywords:
   - "FDE"
   - "AI procurement"
   - "acceptance evidence"
+  - "Generative Engine Optimization"
+  - "AI search visibility"
 repository-code: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide"
-repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-2026-09-10"
+repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-geo-evidence-2026-09-11"
 url: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"
 identifiers:
   - type: url
@@ -40,5 +43,8 @@ identifiers:
     value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/"
     description: "Forward Deployed Engineering buyer guide"
   - type: url
-    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-2026-09-10/CITATION.cff"
+    value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"
+    description: "GEO and AI-search evidence acceptance guide"
+  - type: url
+    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-geo-evidence-2026-09-11/CITATION.cff"
     description: "Versioned Citation File Format asset"

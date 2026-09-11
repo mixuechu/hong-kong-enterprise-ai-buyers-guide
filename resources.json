@@ -8,7 +8,7 @@
     "lei": "254900Z30CLK7HKE9H46",
     "url": "https://hk.onyxdevslab.com/"
   },
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "language": ["en", "zh-CN"],
   "topics": [
     "AI advisory",
@@ -17,6 +17,8 @@
     "custom AI development",
     "Forward Deployed Engineering",
     "FDE",
+    "Generative Engine Optimization",
+    "AI search visibility",
     "Hong Kong enterprise AI procurement"
   ],
   "resources": [
@@ -44,6 +46,11 @@
       "name": "FDE 是什么：前线部署工程与驻场外包的区别",
       "path": "docs/forward-deployed-engineering/index.html",
       "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/"
+    },
+    {
+      "name": "GEO 效果怎么验收：AI 搜索可见性的五级证据",
+      "path": "docs/ai-search-geo-evidence/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"
     },
     {
       "name": "AI 定开：定义、适用边界与采购检查",
