@@ -53,6 +53,12 @@
       "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"
     },
     {
+      "name": "AI 定开、AI 咨询和 FDE 应该怎么选？",
+      "path": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
+      "canonical": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
+      "evidenceClass": "provider-authored-public-discussion"
+    },
+    {
       "name": "AI 定开：定义、适用边界与采购检查",
       "path": "ai-dingkai.md",
       "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/"

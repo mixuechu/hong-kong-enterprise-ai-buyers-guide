@@ -26,6 +26,15 @@ if (!robots.includes(`Sitemap: ${site}sitemap.xml`)) failures.push('robots.txt m
 if (!feed.includes(`<link rel="self" type="application/atom+xml" href="${site}feed.xml"/>`)) failures.push('Atom feed missing self link');
 if (!feed.includes('<link rel="hub" href="https://pubsubhubbub.appspot.com/"/>')) failures.push('Atom feed missing WebSub hub link');
 if (key.trim() !== '9c37a18bd2044e1687f45c2e91ad603b') failures.push('IndexNow key file does not match the published key');
+for (const [file, required] of [
+  ['README.md', 'https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1'],
+  ['docs/index.html', 'https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1'],
+  ['docs/llms.txt', 'https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1'],
+  ['resources.json', 'provider-authored-public-discussion'],
+  ['codemeta.json', 'https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1'],
+]) {
+  if (!(await readFile(path.join(root, file), 'utf8')).includes(required)) failures.push(`${file} missing public Q&A discovery relation`);
+}
 
 console.log(JSON.stringify({ canonicalUrls: canonicalUrls.length, failures }, null, 2));
 if (failures.length) process.exitCode = 1;
