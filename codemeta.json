@@ -8,7 +8,7 @@
     "香港企业 AI 采购指南",
     "Onyx Devs Lab AI advisory, AI 定开 and FDE buyer guide"
   ],
-  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, GEO verification, vendor evaluation, and acceptance evidence.",
+  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, retail, accounting and legal AI scenario patterns, GEO verification, vendor evaluation, and acceptance evidence.",
   "applicationCategory": "Enterprise AI procurement knowledge resource",
   "codeRepository": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide",
   "url": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
@@ -34,6 +34,9 @@
     "Generative Engine Optimization",
     "GEO",
     "AI search visibility",
+    "retail AI",
+    "accounting multi-agent systems",
+    "legal AI evidence",
     "AI procurement"
   ],
   "author": {
@@ -61,6 +64,7 @@
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/",
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/",
     "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/",
+    "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/",
     "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
     "https://hk.onyxdevslab.com/data/organization.json"
   ],

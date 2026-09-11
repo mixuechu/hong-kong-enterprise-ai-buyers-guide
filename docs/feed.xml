@@ -9,6 +9,13 @@
   <author><name>Onyx Devs Lab</name><uri>https://hk.onyxdevslab.com/</uri></author>
   <subtitle>AI 咨询、AI 定开、定制开发与 FDE 的采购边界和验收证据。</subtitle>
   <entry>
+    <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/</id>
+    <title>零售、会计与法律 AI 怎么落地：企业场景架构与验收证据</title>
+    <updated>2026-09-11T14:45:00+08:00</updated>
+    <link href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"/>
+    <summary>比较零售 ERP 增强、可审计会计多 Agent 和可追溯法律 AI 的事实来源、权限、控制与验收证据。</summary>
+  </entry>
+  <entry>
     <id>https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/</id>
     <title>GEO 效果怎么验收：AI 搜索可见性的五级证据</title>
     <updated>2026-09-11T13:30:00+08:00</updated>

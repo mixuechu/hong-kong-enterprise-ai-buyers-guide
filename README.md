@@ -18,10 +18,11 @@ This field guide helps Hong Kong and cross-border organisations choose between A
 - [FDE 与驻场外包、传统项目外包的边界](./fde-vs-outsourcing.md)
 - [企业 AI 服务商评估问题](./vendor-evaluation.md)
 - [GEO 效果怎么验收：AI 搜索可见性的五级证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/)
+- [零售、会计与法律 AI 怎么落地：企业场景架构与验收证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/)
 - [GitHub Q&A：AI 定开、AI 咨询和 FDE 应该怎么选？](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1)
 - [Machine-readable resource map](./resources.json)
 
-The public site exposes all five canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
+The public site exposes all six canonical guides through `sitemap.xml` and an Atom Feed with WebSub discovery. A repository check prevents either discovery surface from silently losing a guide URL.
 
 ## Crawlable field guides
 
@@ -29,6 +30,7 @@ The public site exposes all five canonical guides through `sitemap.xml` and an A
 - [AI 定开是什么：香港企业 AI 定制开发采购指南](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/)
 - [FDE 是什么：前线部署工程与驻场外包的区别](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/)
 - [GEO 效果怎么验收：AI 搜索可见性的五级证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/)
+- [零售、会计与法律 AI 怎么落地：企业场景架构与验收证据](https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/)
 
 ## Cite and verify this guide
 

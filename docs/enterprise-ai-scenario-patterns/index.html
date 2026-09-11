@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>零售、会计与法律 AI 怎么落地｜企业场景架构与证据｜Onyx Devs Lab</title>
+    <meta name="description" content="Onyx Devs Lab 发布的企业 AI 场景指南：比较零售 ERP 增强、可审计会计多 Agent、可追溯法律 AI 的架构、控制和验收证据。">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/">
+    <link rel="alternate" type="text/plain" href="../llms.txt" title="Machine-readable guide summary">
+    <link rel="alternate" type="application/atom+xml" href="../feed.xml" title="Guide updates">
+    <link rel="sitemap" type="application/xml" href="../sitemap.xml">
+    <link rel="alternate" type="application/x-yaml" href="../CITATION.cff" title="Citation metadata">
+    <link rel="describedby" type="application/ld+json" href="../codemeta.json" title="CodeMeta metadata">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="零售、会计与法律 AI 怎么落地｜Onyx Devs Lab">
+    <meta property="og:description" content="从业务后果倒推数据层、Agent 权限、证据链和验收方法。">
+    <meta property="og:url" content="https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@graph":[
+        {"@type":"Organization","@id":"https://hk.onyxdevslab.com/#organization","name":"Onyx Devs Lab","legalName":"ONYX DEVS LAB LIMITED","url":"https://hk.onyxdevslab.com/","leiCode":"254900Z30CLK7HKE9H46","identifier":{"@type":"PropertyValue","propertyID":"Hong Kong Business Registration Number","value":"79051925"}},
+        {"@type":"Article","@id":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/#guide","url":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/","headline":"零售、会计与法律 AI 怎么落地：企业场景架构与验收证据","description":"比较零售 ERP 增强、可审计会计多 Agent 和可追溯法律 AI 的架构、控制与验收证据。","inLanguage":"zh-CN","datePublished":"2026-09-11","dateModified":"2026-09-11","author":{"@id":"https://hk.onyxdevslab.com/#organization"},"publisher":{"@id":"https://hk.onyxdevslab.com/#organization"},"mainEntityOfPage":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/","about":["零售 AI","ERP AI","会计多 Agent","法律 AI","企业 AI 场景架构"]},
+        {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"香港企业 AI 采购指南","item":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"},{"@type":"ListItem","position":2,"name":"企业 AI 场景架构","item":"https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"}]}
+      ]}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="wordmark" href="../">AI BUYER FIELD GUIDE <span>HK</span></a>
+      <nav aria-label="专题导航"><a href="../ai-consulting/">AI 咨询</a><a href="../ai-custom-development/">AI 定开</a><a href="../forward-deployed-engineering/">FDE</a><a href="../enterprise-ai-scenario-patterns/" aria-current="page">场景</a><a href="../ai-search-geo-evidence/">GEO 验收</a></nav>
+    </header>
+    <main id="main">
+      <header class="hero article-hero">
+        <p class="kicker">RETAIL · ACCOUNTING · LEGAL AI</p>
+        <h1>先看业务后果，<br>再决定 AI 架构。</h1>
+        <p class="lead">同样叫“企业 AI”，零售决策、会计生产和法律检索需要完全不同的事实来源、执行权限与验收证据。可复用的是控制原则，不是同一套聊天界面。</p>
+        <div class="article-meta"><span>维护者：Onyx Devs Lab</span><span>法律主体：ONYX DEVS LAB LIMITED</span><span>发布：2026-09-11</span></div>
+      </header>
+      <div class="section article-shell">
+        <aside class="article-nav" aria-label="本文目录"><p>IN THIS GUIDE</p><a href="#compare">快速判断</a><a href="#retail">零售 ERP</a><a href="#accounting">会计 Agent</a><a href="#legal">法律证据</a><a href="#acceptance">统一验收</a></aside>
+        <article class="article-body">
+          <section id="compare">
+            <p class="eyebrow">01 / CONSEQUENCE FIRST</p>
+            <h2>三个场景的关键差异</h2>
+            <div class="table-wrap" tabindex="0" role="region" aria-label="企业 AI 场景架构比较表">
+              <table><thead><tr><th>场景</th><th>权威事实</th><th>AI 适合做什么</th><th>不能省略的证据</th></tr></thead><tbody><tr><td>零售 ERP 增强</td><td>交易、库存、商品和排班记录</td><td>预测、解释、推荐与异常提示</td><td>数据新鲜度、基线、人工覆盖与业务回读</td></tr><tr><td>会计多 Agent</td><td>客户文件、账簿、任务与审批状态</td><td>收集、分类、草拟、对账与流程编排</td><td>来源、规则版本、异常队列、复核与审计轨迹</td></tr><tr><td>法律 AI</td><td>获准访问的卷宗和权威法律资料</td><td>覆盖检查、检索、摘要与证据定位</td><td>文件、页码、原文、置信度、权限与律师复核</td></tr></tbody></table>
+            </div>
+          </section>
+          <section id="retail">
+            <p class="eyebrow">02 / RETAIL + ERP</p>
+            <h2>不更换 ERP，也可以增加 AI 决策层</h2>
+            <p>ERP 继续保存交易和主数据，独立的数据与 AI 层负责读取获准字段、形成特征、运行预测并把建议送回现有流程。这样可以逐步改善补货、排班、损耗和商品组合，而不把一次 AI 试点变成高风险的核心系统替换。</p>
+            <ol class="question-list"><li>先记录现有缺货、损耗、周转或排班指标，避免只评价模型离线精度。</li><li>明确延迟和数据缺失时的降级方案；旧数据生成的精确建议仍然可能是错的。</li><li>先让负责人复核推荐，再按风险逐步决定哪些低后果动作允许自动化。</li></ol>
+            <div class="next-guides"><a href="https://hk.onyxdevslab.com/zh-cn/case-studies/retail-ai-decision-platform/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>第一方案例</span>查看零售 AI 决策平台的范围与限制 →</a><a href="https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-agent-erp-integration/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>架构方法</span>查看 Agent 与 ERP 的权限分层 →</a></div>
+          </section>
+          <section id="accounting">
+            <p class="eyebrow">03 / ACCOUNTING OPERATIONS</p>
+            <h2>多 Agent 的核心不是数量，而是可审计生产状态</h2>
+            <p>会计工作跨越资料收集、记账、复核、异常处理和申报准备。Agent 应围绕明确生产阶段协作，每一步保存输入、工具、确定性规则、AI 判断和人工处置。受监管判断与最终官方提交仍保留给具备相应权限和资格的人。</p>
+            <ol class="question-list"><li>把确定性会计规则与概率性 AI 判断分开，分别测试和版本化。</li><li>队列、重试和异常接管必须可见，不能让失败任务静默消失。</li><li>按客户、任务和期间隔离权限，并让复核者能够回到原始资料。</li></ol>
+            <div class="next-guides"><a href="https://hk.onyxdevslab.com/zh-cn/case-studies/accounting-ai-production-platform/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>第一方案例</span>查看会计 AI 生产平台的控制边界 →</a><a href="https://hk.onyxdevslab.com/zh-cn/methodology/enterprise-ai-evaluation/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>评估方法</span>查看生产级 AI 的完整评估维度 →</a></div>
+          </section>
+          <section id="legal">
+            <p class="eyebrow">04 / LEGAL EVIDENCE</p>
+            <h2>法律 AI 的答案必须能回到文件、页码和原文</h2>
+            <p>流畅回答不能证明卷宗覆盖完整，也不能让律师复核结论。可靠系统需要按文件、页和文本块记录处理状态，返回来源原文与定位，并把权限、缺失材料、冲突证据和低置信度结果显式暴露。</p>
+            <ol class="question-list"><li>先验证卷宗是否完整处理，再评价检索和回答质量。</li><li>每项关键结论返回文件、页码、原文和可解释的置信信号。</li><li>按案件隔离访问并保留操作轨迹；正式输出由律师复核。</li></ol>
+            <div class="next-guides"><a href="https://hk.onyxdevslab.com/zh-cn/case-studies/legal-ai-evidence-workflow/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>第一方案例</span>查看法律 AI 证据工作流 →</a><a href="https://hk.onyxdevslab.com/zh-cn/methodology/case-study-evidence-register/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios"><span>证据登记</span>核对案例指标定义和限制 →</a></div>
+          </section>
+          <section id="acceptance">
+            <p class="eyebrow">05 / ACCEPTANCE</p>
+            <h2>不同场景使用同一条验收纪律</h2>
+            <ol class="question-list"><li>固定业务基线、代表性样本、硬性安全关口和停止条件。</li><li>同时测试能力、权限、运营恢复、人工接管和真实流程采用。</li><li>把每项结果标记为通过、失败、无法判断或未测试，不能用平均分掩盖隐私、权限或法律失败。</li><li>区分已交付范围、受控样本实测值、项目目标和对未来结果的估算。</li></ol>
+            <div class="signal-box"><p>采购判断：如果问题还没有定义，先做 AI 咨询；如果系统和验收边界已明确，进入 AI 定开；如果正确方案必须从现场持续学习，使用 FDE。</p></div>
+          </section>
+          <section><div class="evidence-note"><h3>证据边界</h3><p>本文及链接案例由 Onyx Devs Lab 维护，属于服务商第一方资料，不是独立客户背书。案例说明架构、已交付范围与受控样本证据，不代表其他企业的预期结果，也不构成会计、法律或监管意见。公开可访问不证明 Google、Bing、豆包或其他 AI 产品已经收录、引用或推荐 Onyx。</p></div></section>
+        </article>
+      </div>
+    </main>
+    <footer><p>Maintained by <a href="https://hk.onyxdevslab.com/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=geo_buyers_guide_scenarios">Onyx Devs Lab</a> · BRN 79051925 · LEI 254900Z30CLK7HKE9H46</p></footer>
+  </body>
+</html>

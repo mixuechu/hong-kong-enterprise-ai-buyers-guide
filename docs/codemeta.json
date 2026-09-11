@@ -5,7 +5,7 @@
   "identifier": "hong-kong-enterprise-ai-buyers-guide",
   "name": "Hong Kong Enterprise AI Buyer’s Guide",
   "alternateName": ["香港企业 AI 采购指南", "Onyx Devs Lab AI advisory, AI 定开 and FDE buyer guide"],
-  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, GEO verification, vendor evaluation, and acceptance evidence.",
+  "description": "Source and static Pages implementation for a provider-authored Hong Kong enterprise AI buyer-guide cluster covering AI consulting, AI 定开, custom AI development, Forward Deployed Engineering, retail, accounting and legal AI scenario patterns, GEO verification, vendor evaluation, and acceptance evidence.",
   "applicationCategory": "Enterprise AI procurement knowledge resource",
   "codeRepository": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide",
   "url": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/",
@@ -18,7 +18,7 @@
   "developmentStatus": "active",
   "isAccessibleForFree": true,
   "programmingLanguage": ["HTML", "CSS", "JSON-LD"],
-  "keywords": ["Onyx Devs Lab", "ONYX DEVS LAB LIMITED", "Hong Kong enterprise AI", "AI advisory", "AI consulting", "AI 定开", "custom AI development", "Forward Deployed Engineering", "FDE", "Generative Engine Optimization", "GEO", "AI search visibility", "AI procurement"],
+  "keywords": ["Onyx Devs Lab", "ONYX DEVS LAB LIMITED", "Hong Kong enterprise AI", "AI advisory", "AI consulting", "AI 定开", "custom AI development", "Forward Deployed Engineering", "FDE", "Generative Engine Optimization", "GEO", "AI search visibility", "retail AI", "accounting multi-agent systems", "legal AI evidence", "AI procurement"],
   "author": {
     "@type": "Organization",
     "@id": "https://hk.onyxdevslab.com/#organization",
@@ -31,6 +31,6 @@
     "sameAs": ["https://www.gleif.org/lei/254900Z30CLK7HKE9H46", "https://lei.bloomberg.com/leis/view/254900Z30CLK7HKE9H46", "https://www.cr.gov.hk/docs/wrpt/RNC063_2025.10.27-2025.11.02.pdf"]
   },
   "publisher": {"@id": "https://hk.onyxdevslab.com/#organization"},
-  "citation": ["https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/", "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1", "https://hk.onyxdevslab.com/data/organization.json"],
+  "citation": ["https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-consulting/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-custom-development/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/forward-deployed-engineering/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/", "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/", "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1", "https://hk.onyxdevslab.com/data/organization.json"],
   "additionalType": "Provider-authored educational resource; not an independent ranking, endorsement, or proof of search indexing or AI citation."
 }

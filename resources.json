@@ -53,6 +53,11 @@
       "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/ai-search-geo-evidence/"
     },
     {
+      "name": "零售、会计与法律 AI 怎么落地：企业场景架构与验收证据",
+      "path": "docs/enterprise-ai-scenario-patterns/index.html",
+      "canonical": "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"
+    },
+    {
       "name": "AI 定开、AI 咨询和 FDE 应该怎么选？",
       "path": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",
       "canonical": "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/discussions/1",

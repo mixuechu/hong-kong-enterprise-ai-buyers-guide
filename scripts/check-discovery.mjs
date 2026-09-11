@@ -9,6 +9,7 @@ const canonicalUrls = [
   `${site}ai-custom-development/`,
   `${site}forward-deployed-engineering/`,
   `${site}ai-search-geo-evidence/`,
+  `${site}enterprise-ai-scenario-patterns/`,
 ];
 const [sitemap, feed, robots, key] = await Promise.all([
   readFile(path.join(root, 'docs/sitemap.xml'), 'utf8'),
