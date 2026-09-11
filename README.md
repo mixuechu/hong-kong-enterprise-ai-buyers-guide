@@ -36,7 +36,7 @@ The public site exposes all six canonical guides through `sitemap.xml` and an At
 
 - [Citation File Format](./CITATION.cff)
 - [CodeMeta 3.1 metadata](./codemeta.json)
-- [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-2026-09-10)
+- [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11)
 
 The citation metadata identifies the publisher and version; it does not turn provider-authored guidance into an independent endorsement or prove search indexing, AI citation, or recommendation.
 

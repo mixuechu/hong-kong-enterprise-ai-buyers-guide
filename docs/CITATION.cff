@@ -30,7 +30,7 @@ keywords:
   - "Generative Engine Optimization"
   - "AI search visibility"
 repository-code: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide"
-repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-geo-evidence-2026-09-11"
+repository: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11"
 url: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/"
 identifiers:
   - type: url
@@ -49,5 +49,5 @@ identifiers:
     value: "https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/enterprise-ai-scenario-patterns/"
     description: "Retail, accounting, and legal enterprise AI scenario patterns"
   - type: url
-    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-geo-evidence-2026-09-11/CITATION.cff"
+    value: "https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/download/buyers-guide-scenarios-2026-09-11/CITATION.cff"
     description: "Versioned Citation File Format asset"
