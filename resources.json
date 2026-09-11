@@ -64,6 +64,19 @@
       "evidenceClass": "provider-authored-public-discussion"
     },
     {
+      "name": "Onyx Devs Lab AI-search evidence status",
+      "path": "https://hk.onyxdevslab.com/data/ai-search-evidence-status.json",
+      "canonical": "https://hk.onyxdevslab.com/data/ai-search-evidence-status.json",
+      "evidenceClass": "provider-maintained-machine-readable-status"
+    },
+    {
+      "name": "Onyx automated GEO monitor evidence checkpoint — 2026-09-11, revision 7",
+      "path": "https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7",
+      "canonical": "https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/download/geo-monitor-evidence-2026-09-11-7/2026-09-11-monitor-evidence.json",
+      "evidenceClass": "provider-maintained-versioned-monitor-evidence",
+      "evidenceBoundary": "Crawler and referral observations do not prove indexing, retrieval, citation, ranking, a human visit, or non-brand recommendation."
+    },
+    {
       "name": "AI 定开：定义、适用边界与采购检查",
       "path": "ai-dingkai.md",
       "canonical": "https://hk.onyxdevslab.com/zh-cn/guides/ai-dingkai/"

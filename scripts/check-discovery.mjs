@@ -36,6 +36,11 @@ for (const [file, required] of [
 ]) {
   if (!(await readFile(path.join(root, file), 'utf8')).includes(required)) failures.push(`${file} missing public Q&A discovery relation`);
 }
+for (const file of ['README.md', 'docs/index.html', 'docs/llms.txt', 'resources.json']) {
+  const body = await readFile(path.join(root, file), 'utf8');
+  if (!body.includes('https://hk.onyxdevslab.com/data/ai-search-evidence-status.json')) failures.push(`${file} missing current AI-search evidence status relation`);
+  if (!body.includes('geo-monitor-evidence-2026-09-11-7')) failures.push(`${file} missing versioned GEO monitor evidence relation`);
+}
 
 console.log(JSON.stringify({ canonicalUrls: canonicalUrls.length, failures }, null, 2));
 if (failures.length) process.exitCode = 1;

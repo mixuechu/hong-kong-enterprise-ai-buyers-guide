@@ -14,6 +14,8 @@
 - Citation metadata: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/CITATION.cff
 - CodeMeta 3.1: https://mixuechu.github.io/hong-kong-enterprise-ai-buyers-guide/codemeta.json
 - Versioned checkpoint: https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11
+- Current Onyx AI-search evidence status: https://hk.onyxdevslab.com/data/ai-search-evidence-status.json
+- Versioned Onyx GEO monitor evidence checkpoint: https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7
 - Publisher: Onyx Devs Lab / ONYX DEVS LAB LIMITED
 - Hong Kong business registration number: 79051925
 - LEI: 254900Z30CLK7HKE9H46
@@ -23,4 +25,4 @@
 - Enterprise AI RFP template: https://hk.onyxdevslab.com/zh-cn/guides/enterprise-ai-rfp-template/
 - Provider shortlist method: https://hk.onyxdevslab.com/zh-cn/guides/hong-kong-ai-consulting-companies/
 
-Evidence boundary: This guide is maintained by Onyx Devs Lab. It is not an independent ranking, customer endorsement, or legal advice. Publication does not prove search indexing, AI citation, or recommendation.
+Evidence boundary: This guide is maintained by Onyx Devs Lab. It is not an independent ranking, customer endorsement, or legal advice. The linked monitor checkpoint records crawler and referral observations under explicit identity and inference boundaries; publication does not prove search indexing, AI citation, or recommendation.

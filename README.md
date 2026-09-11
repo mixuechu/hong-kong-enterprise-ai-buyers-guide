@@ -37,8 +37,10 @@ The public site exposes all six canonical guides through `sitemap.xml` and an At
 - [Citation File Format](./CITATION.cff)
 - [CodeMeta 3.1 metadata](./codemeta.json)
 - [Versioned buyer-guide checkpoint](https://github.com/mixuechu/hong-kong-enterprise-ai-buyers-guide/releases/tag/buyers-guide-scenarios-2026-09-11)
+- [Current Onyx AI-search evidence status](https://hk.onyxdevslab.com/data/ai-search-evidence-status.json)
+- [Versioned GEO monitor evidence checkpoint — revision 7](https://github.com/0xHunterL/onyx-devs-lab.github.io/releases/tag/geo-monitor-evidence-2026-09-11-7)
 
-The citation metadata identifies the publisher and version; it does not turn provider-authored guidance into an independent endorsement or prove search indexing, AI citation, or recommendation.
+The citation metadata identifies the publisher and version. The monitor checkpoint separates verified crawler requests, identity-unverified candidates, and referral observations from indexing or recommendation evidence; neither artifact turns provider-authored guidance into an independent endorsement or proves search indexing, AI citation, or recommendation.
 
 ## Primary resources
 
