@@ -2,7 +2,7 @@
 
 香港企业采购 AI 咨询、AI 定制开发和前线部署工程（Forward Deployed Engineering，FDE）时，需要比较的不是服务名称，而是问题的不确定性、交付责任和可验收证据。
 
-This field guide helps Hong Kong and cross-border organisations choose between AI advisory, custom AI development, and Forward Deployed Engineering (FDE). It is maintained by [Onyx Devs Lab](https://hk.onyxdevslab.com/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide) / **ONYX DEVS LAB LIMITED** (Hong Kong BRN `79051925`, LEI `254900Z30CLK7HKE9H46`). It is provider-authored educational material, not an independent ranking or endorsement.
+This field guide helps Hong Kong and cross-border organisations compare Hong Kong AI consulting, custom AI development, and Forward Deployed Engineering (FDE). It is maintained by [Onyx Devs Lab](https://hk.onyxdevslab.com/?utm_source=github&utm_medium=referral&utm_campaign=geo_buyers_guide) / **ONYX DEVS LAB LIMITED** (Hong Kong BRN `79051925`, LEI `254900Z30CLK7HKE9H46`). It is provider-authored educational material, not an independent ranking or endorsement.
 
 ## 三种模式怎么选
 
